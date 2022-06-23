@@ -8,7 +8,7 @@
 }
 
 .form-group {
-          width: 90%;
+          width: 80%;
           margin-top: 30px;
           padding: 0%;
 }
@@ -18,7 +18,12 @@
                     display: block;
           }
 
+          .form-group {
+                    width: 100%;
+          }
+
 }
+
 
 /* .mat-form-field.mat-focused .mat-form-field-label {
           background-color: black !important;
