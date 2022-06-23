@@ -1,7 +1,20 @@
 <div class="box">
-          <mat-form-field class="form-group">
-                    <input matInput placeholder="Digite sua sequência" class="form-field">
-          </mat-form-field>
-          <app-button-submit></app-button-submit>
+          <form (submit)="addTodo()">
+                    <mat-form-field class="form-group">
+                              <input matInput placeholder="Digite seu Nome" class="form-field">
+                    </mat-form-field>
+                    <div class="form-secondary">
+                              <mat-form-field class="form-field">
+                                        <input matInput placeholder=" Digite seu Peso" class="form-field">
+                              </mat-form-field>
+                              <mat-form-field class="form-field">
+                                        <input matInput placeholder=" Digite sua Altura" class="form-field">
+                              </mat-form-field>
+                    </div>
+
+                    <div class="box-submit">
+                              <app-button-submit type="submit"></app-button-submit>
+                    </div>
+          </form>
 
 </div>
